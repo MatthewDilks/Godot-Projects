@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx34m3r5pv5af"]
+
+[ext_resource type="Script" path="res://GridScript.cs" id="1_3niog"]
+[ext_resource type="Script" path="res://SnakeListScript.cs" id="2_lxb1l"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_3niog")
+
+[node name="Snake" type="Node2D" parent="."]
+script = ExtResource("2_lxb1l")
